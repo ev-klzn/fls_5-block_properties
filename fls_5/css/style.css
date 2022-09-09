@@ -36,12 +36,18 @@ img {
 
 html {
     font-size: 16px;
+    height: 100%;
     /* по умолчанию */
 }
 
 body {
     /* font-family: "Gilroy", sans-serif; */
     line-height: 1;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
 }
 
 /* --------------- */
