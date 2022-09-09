@@ -51,3 +51,41 @@ body {
 }
 
 /* --------------- */
+
+.hi {
+    display: block;
+}
+
+.hello {
+    display: inline-block;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 15px;
+}
+
+.link {
+    display: inline-block;
+    margin: 0 0 30px 0;
+}
+
+.text {
+    display: inline-block;
+    max-width: 100px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.content__1 {
+    margin: 0 30px;
+}
+
+.content__2 {
+    margin: -20px 30px 0 30px;
+}
+
+.span {
+    font-size: 30px;
+    max-height: 200px;
+    display: inline-block;
+    overflow: scroll;
+}
